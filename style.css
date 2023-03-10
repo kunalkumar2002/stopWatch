@@ -1,0 +1,79 @@
+body{
+    background: radial-gradient(
+        circle closest-corner at center 125px,
+        #6ba8a2,
+        black 99%
+      ) no-repeat;
+      text-align: center;
+      color: aliceblue;
+      background-size: 100vw 100vh;
+      padding: 50px
+}
+
+.container{
+    /* background-color: black; */
+
+    width: 40% ;
+    /* background-size: contain; */
+    /* min-width: 400px; */
+    position: absolute;
+    /* The -50% transform basically means, in simple words, 
+    "move this element left and upwards by 50% of the 
+    computed dimension along the axis". -50% along the 
+    x-axis means "move me leftwards by half my computed 
+    width", likewise for that in the y-axis. The reason 
+    why this is needed is because when setting top: 
+    50%; left: 50% of the element, you are moving
+    the top left corner of the element to the center
+    of its parent. */
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom:50px ;
+    border-radius: 10px;
+}
+
+.timer{
+    position: relative;
+    width: 92%;
+    /* background: black; */
+    left: 4%;
+    padding: 40px 0;
+    font-family: 'Roboto mono',monospace;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    
+
+}
+
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #205e94;
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: greenyellow;
+}
