@@ -10,7 +10,7 @@ Display timer initialy 00 : 00 : 00 fallow  (hours : minutes : second) and chang
 .
 ![image](https://user-images.githubusercontent.com/95571010/224799987-e43e1300-05c4-4558-bfea-074779bad21d.png)
 
-FEATURES & FUNCTIONALITY :
+# FEATURES & FUNCTIONALITY :
 
 Start Button : Start the timer as soon as start button clicked
 
