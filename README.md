@@ -28,3 +28,13 @@ STOP BUTTON : stop the time interval and sets the text of the START button as RE
 is displayed in the lap list , and lap count increase.
 
 On clicking RESUME the time begins again from the point of time where it was paused initially.
+
+![image](https://user-images.githubusercontent.com/95571010/224809391-91bd8795-76ca-4359-99b4-d0386f45433c.png)
+
+RESET BUTTON : Resets the timer and time interval , displays '00:00:00' in the output section and resets the
+inner text of the RESUME button to START button.
+
+![image](https://user-images.githubusercontent.com/95571010/224809955-8bfe3742-a98e-4b21-9473-36ce2d9c26a9.png)
+
+
+
