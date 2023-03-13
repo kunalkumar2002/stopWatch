@@ -92,6 +92,7 @@ reset.addEventListener('click' , function(){
     lapcount.innerHTML = `${0}`;
     //making lap list innerhtml again 0;
     laplist.innerHTML = '';
+    count = 0;
 
 })
 
