@@ -50,10 +50,11 @@ button:focus{
 }
 
 #massage{
-    display: inline-block;
-    /* position: relative; */
-    width: 400px;
-    margin: auto;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    width: 450px;
+    transform: translate(-50%,-50%);
     color: white;
     padding: 20px;
     text-align: left;
