@@ -50,6 +50,8 @@ button:focus{
 }
 
 #massage{
+    display: inline-block;
+    /* position: relative; */
     width: 400px;
     margin: auto;
     color: white;
