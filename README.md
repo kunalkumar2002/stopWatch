@@ -24,3 +24,7 @@ increment the hour.
 
 ![image](https://user-images.githubusercontent.com/95571010/224802844-c74edc27-fe9b-4060-bb56-69020228378d.png)
 
+STOP BUTTON : stop the time interval and sets the text of the START button as RESUME. And also the time at which the stop button was hit, 
+is displayed in the lap list , and lap count increase.
+
+On clicking RESUME the time begins again from the point of time where it was paused initially.
