@@ -9,14 +9,24 @@
     <body>
         <div class="container" >
             <div class="timer">
-                00 : 00 : 00
-            </div>
+                <p>
+                    <span class="time" id="hours">00 :</span>
+                    <span class="time" id="minuts">00 :</span>
+                    <span class="time" id="seconds">00 </span>
+                </p> 
 
-            <div class="buttons">
                 <button id="start">Start</button>
                 <button id="stop">Stop</button>
                 <button id="reset">Reset</button>
+            </div> 
+            
+            <div id="massage">
+                <span id="lap-margin">Lap count : </span><span id="count">0</span>
+                <ul id="lap-list">
+                    <!-- <p>Lap List</p> -->
+                </ul>
             </div>
+        
         </div>
         <script src="stop.js"></script>
     </body>
