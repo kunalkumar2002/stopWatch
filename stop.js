@@ -89,10 +89,12 @@ reset.addEventListener('click' , function(){
     timer[1].innerHTML = '00 :'
     timer[2].innerHTML = '00';
     //making lap count again 0
-    lapcount.innerHTML = `${0}`;
+    count = 0;
+    lapcount.innerHTML = `${count}`;
     //making lap list innerhtml again 0;
     laplist.innerHTML = '';
-    count = 0;
+    //making count again to 0
+    
 
 })
 
