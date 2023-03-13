@@ -98,7 +98,7 @@ reset.addEventListener('click' , function(){
 //checking how many tme taken in a Lap
 function lapruntime(){
     
-    laplist.innerHTML = '';
+    // laplist.innerHTML = '';
     const li = document.createElement('li');
     if(hours === 0){
         li.innerHTML = `Lap Number ${count} at ${minutes}min : ${second}sec`;
