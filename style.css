@@ -23,6 +23,7 @@ body{
 }
 
 .container p{
+    margin-top: 10%;
     position: relative;
     color: white;
 }
@@ -49,13 +50,12 @@ button:focus{
     box-shadow: 0px 4px 27px -12px #f68400;
 }
 
-#massage{
+.massage-class{
     position: relative;
-    top: 10%;
-    left: 50%;
+    margin: 40px auto 0 auto;
     width: 450px;
-    transform: translate(-50%,-50%);
     color: white;
+    font-size: 20px;
     padding: 20px;
     text-align: left;
     border: 2px solid;
