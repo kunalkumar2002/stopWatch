@@ -98,7 +98,7 @@ reset.addEventListener('click' , function(){
 
 })
 
-//checking how many tme taken in a Lap
+//checking how many time taken in a Lap
 function lapruntime(){
     
     // laplist.innerHTML = '';
